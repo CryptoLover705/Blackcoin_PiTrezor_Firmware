@@ -436,7 +436,7 @@ def by_name(name: str) -> CoinInfo:
                 negative_fee=False,
                 curve_name='secp256k1',
                 extra_data=False,
-                timestamp=False,
+                timestamp=True,
                 overwintered=False,
                 confidential_assets=None,
             )    
